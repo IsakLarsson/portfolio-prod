@@ -7,7 +7,7 @@ export default function Selfie() {
             borderColor={'whitesmoke'}
             borderWidth={'4px'}
             size="2xl"
-            src={'images/Selfie.png'}
+            src={'images/Selfie.webp'}
         />
     )
 }

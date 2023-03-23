@@ -56,7 +56,7 @@ export default function Home() {
                 <VStack alignItems={'stretch'} gap={2}>
                     <StaggeredItem>
                         <ExperienceItem
-                            src="/images/netlight.png"
+                            src="/images/netlight.webp"
                             title="Consultant"
                             subTitle="Netlight"
                             period="Apr 2022 - Present"
@@ -64,7 +64,7 @@ export default function Home() {
                     </StaggeredItem>
                     <StaggeredItem>
                         <ExperienceItem
-                            src="/images/Coeo.png"
+                            src="/images/Coeo.webp"
                             title="Frontend Developer"
                             subTitle="Coeo"
                             period="Jun 2021 - Jun 2022"
@@ -72,7 +72,7 @@ export default function Home() {
                     </StaggeredItem>
                     <StaggeredItem>
                         <ExperienceItem
-                            src="/images/uminova.png"
+                            src="/images/uminova.webp"
                             title="Frontend Developer"
                             subTitle="Metrium"
                             period="Feb 2021 - Jun 2021"
@@ -82,7 +82,7 @@ export default function Home() {
                 <StaggeredItem>
                     <Heading variant={'underline'}>Education</Heading>
                     <ExperienceItem
-                        src="/images/umu.png"
+                        src="/images/umu.webp"
                         title="Umeå University"
                         subTitle="Master of science, Interaction & Design"
                     />

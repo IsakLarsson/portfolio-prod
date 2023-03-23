@@ -12,14 +12,14 @@ export default function ProjectPage() {
                     work in progress and will be expanded in the near future.
                 </Text>
 
-                <ProjectGridItem src="images/GAN.png" title="DAIVinci">
+                <ProjectGridItem src="images/GAN.webp" title="DAIVinci">
                     A Deeplearning model for generating art based on the worlds
                     greatest artworks. Although much smaller than today&apos;s
                     DALL-E&apos;s and Stable diffusion, it managed to generate
                     interesting results
                 </ProjectGridItem>
                 <ProjectGridItem
-                    src="/images/wideparadox.svg"
+                    src="/images/wideparadox.webp"
                     title="360 Feedback"
                 >
                     An employee evaluation webapp for game dev studio Paradox
@@ -27,7 +27,7 @@ export default function ProjectPage() {
                     evaluation process.
                 </ProjectGridItem>
                 <ProjectGridItem
-                    src="/images/freshmanwide.svg"
+                    src="/images/freshmanwide.webp"
                     title="University newcomers"
                 >
                     A mobile app for helping university newcomers to settle in
