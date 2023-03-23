@@ -1,6 +1,9 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
 import { ProjectGridItem } from '../../components/ProjectGridItem'
 import { Transition } from '../../components/Transition'
+import GanImage from '../../public/images/GAN.webp'
+import ParadoxImage from '../../public/images/wideparadox.webp'
+import FreshmanImage from '../../public/images/freshmanwide.webp'
 
 export default function ProjectPage() {
     return (
@@ -12,22 +15,19 @@ export default function ProjectPage() {
                     work in progress and will be expanded in the near future.
                 </Text>
 
-                <ProjectGridItem src="images/GAN.webp" title="DAIVinci">
+                <ProjectGridItem src={GanImage} title="DAIVinci">
                     A Deeplearning model for generating art based on the worlds
                     greatest artworks. Although much smaller than today&apos;s
                     DALL-E&apos;s and Stable diffusion, it managed to generate
                     interesting results
                 </ProjectGridItem>
-                <ProjectGridItem
-                    src="/images/wideparadox.webp"
-                    title="360 Feedback"
-                >
+                <ProjectGridItem src={ParadoxImage} title="360 Feedback">
                     An employee evaluation webapp for game dev studio Paradox
                     Arctic to enable a more reliable, efficient and time saving
                     evaluation process.
                 </ProjectGridItem>
                 <ProjectGridItem
-                    src="/images/freshmanwide.webp"
+                    src={FreshmanImage}
                     title="University newcomers"
                 >
                     A mobile app for helping university newcomers to settle in

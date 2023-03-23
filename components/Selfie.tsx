@@ -1,4 +1,5 @@
 import { Avatar } from '@chakra-ui/react'
+import Image from 'next/image'
 import React from 'react'
 
 export default function Selfie() {

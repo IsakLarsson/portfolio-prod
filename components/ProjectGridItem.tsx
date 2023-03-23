@@ -1,11 +1,13 @@
 import { Image, GridItem, Heading, Text, Box, VStack } from '@chakra-ui/react'
 import React, { ReactNode } from 'react'
 import { StaggeredItem } from './StaggeredItem'
+import ChakraNextImage from './ChakraNextImage'
+import { StaticImageData } from 'next/image'
 
 interface Props {
     title: string
     children: ReactNode
-    src: string
+    src: StaticImageData
 }
 
 export const ProjectGridItem: React.FC<Props> = ({ title, children, src }) => {
@@ -13,13 +15,13 @@ export const ProjectGridItem: React.FC<Props> = ({ title, children, src }) => {
         <StaggeredItem>
             <GridItem my={'1rem'}>
                 <Box display={['block', 'flex']} color={'#eee'}>
-                    <Image
+                    <ChakraNextImage
                         h={['200px', '150px']}
                         w={['100%', '150px']}
                         borderRadius={'0.3rem'}
                         objectFit={'cover'}
                         src={src}
-                        alt={''}
+                        alt={title}
                     />
                     <VStack
                         h={'100%'}
