@@ -7,9 +7,13 @@ import { Transition } from '../components/Transition'
 import { FaGuitar } from 'react-icons/fa'
 import { IoIosFitness } from 'react-icons/io'
 import { AiOutlineCode } from 'react-icons/ai'
+import Head from 'next/head'
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Isak Larsson</title>
+            </Head>
             <Transition>
                 <StaggeredItem>
                     <Flex
