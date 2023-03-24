@@ -22,6 +22,7 @@ export const ProjectGridItem: React.FC<Props> = ({ title, children, src }) => {
                         objectFit={'cover'}
                         src={src}
                         alt={title}
+                        priority
                     />
                     <VStack
                         h={'100%'}

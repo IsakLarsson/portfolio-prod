@@ -13,6 +13,7 @@ const Image = chakra(NextImage, {
             'placeholder',
             'blurDataURL',
             'loader ',
+            'priority',
         ].includes(prop),
 })
 
