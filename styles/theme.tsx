@@ -30,8 +30,8 @@ const theme = extendTheme({
     },
     config,
     fonts: {
-        heading: `'M PLUS Rounded 1C', sans-serif`,
-        body: `'M PLUS Rounded 1C', sans-serif`,
+        heading: `'ABeeZee', sans-serif`,
+        body: `'M PLUS 1 Code', sans-serif`,
     },
     components,
 })

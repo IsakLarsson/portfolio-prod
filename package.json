@@ -12,6 +12,8 @@
     "@chakra-ui/react": "^2.4.7",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/abeezee": "^4.5.10",
+    "@fontsource/m-plus-1-code": "^4.5.13",
     "@fontsource/m-plus-rounded-1c": "^4.5.10",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",

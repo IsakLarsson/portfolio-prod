@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import '@fontsource/m-plus-rounded-1c'
+import '@fontsource/abeezee'
 import { AnimatePresence } from 'framer-motion'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'

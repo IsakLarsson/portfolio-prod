@@ -41,17 +41,17 @@ export default function Home() {
                 </StaggeredItem>
                 <StaggeredItem>
                     <Heading variant="underline">About me</Heading>
-                    <Text align={['initial', 'justify']}>
+                    <Text align={['initial']}>
                         I&apos;m a developer with a passion for creating
                         products that are both beautiful and easy to use.
                         I&apos;m always looking to learn more about the
                         different aspects of tech, like backend development and
                         AI. I&apos;m also a big believer in the importance of
-                        good user experience. When I&apos;m not coding away, you
-                        can usually find me picking away on my guitar, trying
-                        out new songs and styles. I&apos;m excited to take on
-                        new projects and continue growing as a developer, and as
-                        a person. Let&apos;s build something awesome together!
+                        good user experience. When I&apos;m not coding, you can
+                        usually find me picking away on my guitar, trying out
+                        new songs and styles. I&apos;m excited to take on new
+                        projects and continue growing as a developer, and as a
+                        person. Let&apos;s build something awesome together!
                     </Text>
                 </StaggeredItem>
                 <StaggeredItem>
