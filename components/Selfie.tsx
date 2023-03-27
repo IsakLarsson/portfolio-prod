@@ -5,6 +5,7 @@ import React from 'react'
 export default function Selfie() {
     return (
         <Avatar
+            mb={['1.5rem']}
             borderColor={'whitesmoke'}
             borderWidth={'4px'}
             size="2xl"

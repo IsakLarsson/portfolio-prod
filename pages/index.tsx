@@ -19,7 +19,7 @@ export default function Home() {
                     <Flex
                         wrap={'wrap-reverse'}
                         my={'2rem'}
-                        justify={'space-between'}
+                        justify={['center', 'space-between']}
                         alignItems={'center'}
                     >
                         <Flex direction={'column'}>

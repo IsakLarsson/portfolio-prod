@@ -11,7 +11,7 @@ interface Props {
 }
 export const Tags: React.FC<Props> = ({ tags, color }) => {
     return (
-        <HStack pt={'0.3rem'}>
+        <HStack justify={['center', 'normal']} pt={'0.3rem'}>
             {tags.map((tagContent: TagContent) => (
                 <Tag
                     variant={'subtle'}
