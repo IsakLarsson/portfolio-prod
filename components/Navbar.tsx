@@ -26,7 +26,7 @@ const NavItem: React.FC<NavItemProps> = ({
     return (
         <motion.div style={{ height: '100%' }} whileHover={{ y: 2 }}>
             <Link
-                color={active ? 'tomato' : 'whitesmoke'}
+                color={active ? 'gold' : 'gray.500'}
                 _hover={{ textDecor: 'none' }}
                 as={NextLink}
                 href={href}
@@ -62,7 +62,7 @@ const Navbar: React.FC<Props> = ({ router }) => {
             maxW={'2xl'}
             width={['100vw', '100vw', '2xl']}
             transform={'translateX(-50%)'}
-            p={'0.5rem 1rem'}
+            p={'1rem '}
             justifyContent={'space-between'}
         >
             <HStack gap={2}>

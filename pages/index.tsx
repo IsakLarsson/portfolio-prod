@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, VStack } from '@chakra-ui/react'
+import { Flex, Heading, Tag, Text, VStack } from '@chakra-ui/react'
 import { ExperienceItem } from '../components/ExperienceItem'
 import Selfie from '../components/Selfie'
 import { StaggeredItem } from '../components/StaggeredItem'
@@ -18,7 +18,7 @@ export default function Home() {
                 <StaggeredItem>
                     <Flex
                         wrap={'wrap-reverse'}
-                        my={'1rem'}
+                        my={'2rem'}
                         justify={'space-between'}
                         alignItems={'center'}
                     >

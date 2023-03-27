@@ -7,7 +7,7 @@ import { StaticImageData } from 'next/image'
 interface Props {
     title: string
     children: ReactNode
-    src: StaticImageData
+    src: string
 }
 
 export const ProjectGridItem: React.FC<Props> = ({ title, children, src }) => {
@@ -15,14 +15,13 @@ export const ProjectGridItem: React.FC<Props> = ({ title, children, src }) => {
         <StaggeredItem>
             <GridItem my={'1rem'}>
                 <Box display={['block', 'flex']} color={'#eee'}>
-                    <ChakraNextImage
+                    <Image
+                        borderRadius={'md'}
                         h={['200px', '150px']}
                         w={['100%', '150px']}
-                        borderRadius={'0.3rem'}
-                        objectFit={'cover'}
                         src={src}
-                        alt={title}
-                        priority
+                        objectFit={'cover'}
+                        alt="Project image"
                     />
                     <VStack
                         h={'100%'}
