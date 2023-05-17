@@ -35,7 +35,7 @@ export const ExperienceItem: React.FC<Props> = ({
                         width={75}
                         height={75}
                         src={src}
-                        alt=""
+                        alt="company logo"
                     />
                     <Flex ml={'1rem'} direction={'column'}>
                         <Heading size={['sm', 'md']}>{title}</Heading>
