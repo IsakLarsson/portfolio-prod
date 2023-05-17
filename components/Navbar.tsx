@@ -77,16 +77,16 @@ const Navbar: React.FC<Props> = ({ router }) => {
                 <NavItem
                     currentPath={router.pathname}
                     href="https://github.com/IsakLarsson"
-                    external={true}
+                    external
                 >
-                    <Icon as={FaGithub} />
+                    <Icon as={FaGithub} w={5} h={5} />
                 </NavItem>
                 <NavItem
                     currentPath={router.pathname}
                     href="https://www.linkedin.com/in/isak-%C3%A5man-larsson-629330181/"
-                    external={true}
+                    external
                 >
-                    <Icon as={TfiLinkedin} />
+                    <Icon as={TfiLinkedin} w={5} h={5} />
                 </NavItem>
             </HStack>
         </HStack>

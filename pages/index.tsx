@@ -1,11 +1,10 @@
-import { Flex, Heading, Tag, Text, VStack } from '@chakra-ui/react'
+import { Flex, Heading, Text, VStack } from '@chakra-ui/react'
 import { ExperienceItem } from '../components/ExperienceItem'
 import Selfie from '../components/Selfie'
 import { StaggeredItem } from '../components/StaggeredItem'
 import { Tags } from '../components/Tags'
 import { Transition } from '../components/Transition'
 import { FaGuitar } from 'react-icons/fa'
-import { IoIosFitness } from 'react-icons/io'
 import { AiOutlineCode } from 'react-icons/ai'
 import Head from 'next/head'
 export default function Home() {

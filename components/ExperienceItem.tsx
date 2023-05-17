@@ -1,6 +1,6 @@
-import { Flex, Heading, Image, Tag, Text } from '@chakra-ui/react'
+import { Flex, Heading, Image, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import React, { ReactNode } from 'react'
+import React from 'react'
 interface Props {
     src: string
     title: string

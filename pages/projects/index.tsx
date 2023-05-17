@@ -1,4 +1,4 @@
-import { Box, Text, Divider, Heading } from '@chakra-ui/react'
+import { Box, Heading } from '@chakra-ui/react'
 import { Transition } from '../../components/Transition'
 import Head from 'next/head'
 import ProjectListItem from '../../components/ProjectListItem'
@@ -46,28 +46,6 @@ export default function ProjectPage() {
                         year={'2021'}
                         techs={'Python, Tensorflow, Keras'}
                     />
-                    {/* <ProjectGridItem src={'/images/GAN.webp'} title="DAIVinci">
-                        A Deeplearning model for generating art based on the
-                        worlds greatest artworks. Although much smaller than
-                        today&apos;s DALL-E&apos;s and Stable diffusion, it
-                        managed to generate interesting results
-                    </ProjectGridItem>
-                    <ProjectGridItem
-                        src={'/images/wideparadox.webp'}
-                        title="360 Feedback"
-                    >
-                        An employee evaluation webapp for game dev studio
-                        Paradox Arctic to enable a more reliable, efficient and
-                        time saving evaluation process.
-                    </ProjectGridItem>
-                    <ProjectGridItem
-                        src={'/images/freshmanwide.webp'}
-                        title="University newcomers"
-                    >
-                        A mobile app for helping university newcomers to settle
-                        in with their new friends and attend events to help
-                        build social connections.
-                    </ProjectGridItem> */}
                 </Box>
             </Transition>
         </>
