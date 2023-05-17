@@ -44,14 +44,22 @@ export default function Home() {
                     <Text align={['initial']}>
                         I&apos;m a developer with a passion for creating
                         products that are both beautiful and easy to use.
-                        I&apos;m always looking to learn more about the
-                        different aspects of tech, like backend development and
-                        AI. I&apos;m also a big believer in the importance of
-                        good user experience. When I&apos;m not coding, you can
-                        usually find me picking away on my guitar, trying out
-                        new songs and styles. I&apos;m excited to take on new
-                        projects and continue growing as a developer, and as a
-                        person. Let&apos;s build something awesome together!
+                        I&apos;m always looking to learn more about different
+                        aspects of tech, like backend development and AI.
+                        I&apos;m also a big believer in the importance of good
+                        user experience. When I&apos;m not coding, you can
+                        usually find me picking away on my guitar, or in the
+                        gym.
+                    </Text>
+                    <br />
+                    <Text align={['initial']}>
+                        I love the challenge and ultimate satisfaction of
+                        learning something new, be it a new concept, learning
+                        how to paint or learning a new song on the guitar. The
+                        feeling of satisfaction after learning something new is
+                        the same no matter the area. I&apos;m excited to take on
+                        new projects and continue growing as a developer, and as
+                        a person. Let&apos;s build something awesome together!
                     </Text>
                 </StaggeredItem>
                 <StaggeredItem>

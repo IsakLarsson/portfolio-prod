@@ -24,7 +24,7 @@ export const ExperienceItem: React.FC<Props> = ({
         >
             <Flex
                 borderRadius={'md'}
-                bg={'#303745 '}
+                bg={'#242835'}
                 justify={'space-between'}
                 alignItems={'center'}
                 p={'0 1rem 0 0'}
@@ -39,12 +39,20 @@ export const ExperienceItem: React.FC<Props> = ({
                     />
                     <Flex ml={'1rem'} direction={'column'}>
                         <Heading size={['sm', 'md']}>{title}</Heading>
-                        <Text fontWeight={'medium'} fontSize={['sm', 'md']}>
+                        <Text
+                            color={'gray.400'}
+                            fontWeight={'medium'}
+                            fontSize={['sm', 'md']}
+                        >
                             {subTitle}
                         </Text>
                     </Flex>
                 </Flex>
-                <Text fontWeight={'medium'} fontSize={['sm', 'md']}>
+                <Text
+                    color={'gray.400'}
+                    fontWeight={'medium'}
+                    fontSize={['sm', 'md']}
+                >
                     {period}
                 </Text>
             </Flex>
