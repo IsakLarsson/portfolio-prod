@@ -15,7 +15,7 @@ export default function ProjectPage() {
 
                     <ProjectListItem
                         title="Rustmon"
-                        body="Since I'm a beleiver in learning by doing, this small project is just for me to implement
+                        body="Since I'm a believer in learning by doing, this small project is just for me to implement
                         the things that I learn about the Rust programming language as I go along reading the
                         Rust book in the form of a little terminal based Pokèmon battle simulator"
                         year={'2023'}
