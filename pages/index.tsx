@@ -67,10 +67,18 @@ export default function Home() {
                 <VStack alignItems={'stretch'} gap={2}>
                     <StaggeredItem>
                         <ExperienceItem
+                            src="/images/savrlogo.webp"
+                            title="Software Engineer"
+                            subTitle="SAVR"
+                            period="Sep 2023 - Present"
+                        />
+                    </StaggeredItem>
+                    <StaggeredItem>
+                        <ExperienceItem
                             src="/images/netlight.webp"
                             title="Consultant"
                             subTitle="Netlight"
-                            period="Apr 2022 - Present"
+                            period="Sep 2022 - Aug 2023"
                         />
                     </StaggeredItem>
                     <StaggeredItem>

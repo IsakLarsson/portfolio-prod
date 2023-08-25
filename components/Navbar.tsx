@@ -26,7 +26,7 @@ const NavItem: React.FC<NavItemProps> = ({
     return (
         <motion.div style={{ height: '100%' }} whileHover={{ y: 2 }}>
             <Link
-                color={active ? 'gold' : 'gray.400'}
+                color={active ? '#FFC106' : 'gray.400'}
                 _hover={{ textDecor: 'none' }}
                 as={NextLink}
                 href={href}
