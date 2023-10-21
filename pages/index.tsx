@@ -44,14 +44,14 @@ export default function Home() {
                         I&apos;m a developer with a passion for creating
                         products that are both beautiful and easy to use.
                         I&apos;m always looking to learn more about different
-                        aspects of tech, like backend development and AI.
-                        I&apos;m also a big believer in the importance of good
-                        user experience. When I&apos;m not coding, you can
-                        usually find me picking away on my guitar, or in the
-                        gym.
+                        aspects of tech, like backend development, mobile
+                        development and functional programming. I&apos;m also a
+                        big believer in the importance of good user experience.
+                        When I&apos;m not coding, you can usually find me
+                        picking away on my guitar, or in the gym.
                     </Text>
                     <br />
-                    <Text align={['initial']}>
+                    <Text align={['initial']} mb={'2rem'}>
                         I love the challenge and ultimate satisfaction of
                         learning something new, be it a new concept, learning
                         how to paint or learning a new song on the guitar. The
